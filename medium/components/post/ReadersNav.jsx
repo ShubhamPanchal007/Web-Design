@@ -4,18 +4,23 @@ import React from "react";
 import dummyImage from "../../public/Dummy.png";
 function ReadersNav() {
   return (
-    <div className="flex flex-col justify-between  items-center bg-white shadow-lg max-w-[80px] py-3">
-      <Link href={"/"}>
-        <svg viewBox="0 0 1043.63 592.71" className="h-10 w-10 cursor-pointer">
-          <g dataname="Layer 2">
-            <g dataname="Layer 1">
-              <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+    <div className="flex flex-col justify-between  items-center bg-white border-x  max-w-[80px] py-9 h-screen px-5">
+      <div>
+        <Link href={"/"}>
+          <svg
+            viewBox="0 0 1043.63 592.71"
+            className="h-10 w-10 cursor-pointer"
+          >
+            <g dataname="Layer 2">
+              <g dataname="Layer 1">
+                <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+              </g>
             </g>
-          </g>
-        </svg>
-      </Link>
+          </svg>
+        </Link>
+      </div>
       {/* Navigation options */}
-      <div className="space-y-20 text-gray-400">
+      <div className="space-y-10 text-gray-400">
         <div className="space-y-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,6 +65,7 @@ function ReadersNav() {
             />
           </svg>
         </div>
+        <hr />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

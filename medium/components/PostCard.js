@@ -1,18 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import authorImage from "../public/Medium.png";
+import authorImage from "../public/Dummy.png";
 import mainImage from "../public/mainImage.jpg";
 function PostCard() {
   return (
-    <div className="flex justify-between ml-28 mt-14 max-w-3xl items-center">
+    <div className="flex justify-between ml-24 mt-14 max-w-2xl items-center space-x-1">
       <div>
         {/* Author's section */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 mb-2">
           <Image
             className={"rounded-full object-contain"}
             src={authorImage}
-            height={30}
-            width={30}
+            height={25}
+            width={25}
           />
           <p className={"font-bold"}>Shubham Panchal</p>
         </div>
@@ -61,8 +61,8 @@ function PostCard() {
         <Image
           className={"object-contain relative"}
           src={mainImage}
-          height={150}
-          width={150}
+          height={200}
+          width={200}
         />
       </div>
     </div>

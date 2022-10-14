@@ -1,10 +1,10 @@
 import React from "react";
-import MainArticle from "./MainArticle";
+import MainArticle from "./MainArticle/MainArticle";
 import ReadersNav from "./ReadersNav";
 import Recommendations from "./recommendations";
 
 function Post() {
-  return <section className="grid grid-flow-col h-screen">
+  return <div className="flex">
 
   {/* Reader's navigation */}
     <ReadersNav/>
@@ -12,7 +12,7 @@ function Post() {
     <MainArticle/>
     {/* Recommendations */}
     <Recommendations/>
-  </section>;
+  </div>;
 }
 
 export default Post;
