@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import authorImage from "../public/Dummy.png";
+import authorImage from "../public/Dummy.jpg";
 import mainImage from "../public/mainImage.jpg";
 function PostCard() {
   return (

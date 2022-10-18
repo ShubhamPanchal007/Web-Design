@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import dummyAuthor from "../../../public/Dummy.png";
+import dummyAuthor from "../../../public/Dummy.jpg";
 function AuthorBar() {
   return (
     <header>
       <div className="flex mt-20 space-x-80 items-center">
         <div className="flex space-x-4">
-          <div className="rounded-full">
+          <div>
             <Image
               src={dummyAuthor}
               width={50}
@@ -29,12 +29,12 @@ function AuthorBar() {
                     width="13"
                     height="12"
                     viewBox="0 0 17 16"
-                    fill="true"
+                    stroke="#ffffff"
                     className="inline-flex"
                   >
                     <path
                       d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm2.8 8.51l-3.69 2.46a.62.62 0 0 1-.96-.5V5.53a.62.62 0 0 1 .96-.51l3.7 2.46a.62.62 0 0 1 0 1.02z"
-                      fill="#1a8917"
+                      fill="green"
                     ></path>
                   </svg>
                   <span>Listen</span>

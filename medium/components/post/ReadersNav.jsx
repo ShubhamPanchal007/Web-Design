@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import dummyImage from "../../public/Dummy.png";
+import dummyImage from "../../public/Dummy.jpg";
 function ReadersNav() {
   return (
-    <div className="flex flex-col justify-between  items-center bg-white border-x  max-w-[80px] py-9 h-screen px-5">
-      <div>
+    <div className="flex top-0 sticky flex-col justify-between  items-center bg-white border-x  max-w-[80px] py-9 max-h-[100vh] px-5">
+      <div className="sticky">
         <Link href={"/"}>
           <svg
             viewBox="0 0 1043.63 592.71"

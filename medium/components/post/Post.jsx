@@ -1,7 +1,7 @@
 import React from "react";
-import MainArticle from "./MainArticle/MainArticle";
+import MainArticle from "./mainArticle/MainArticle";
 import ReadersNav from "./ReadersNav";
-import Recommendations from "./recommendations";
+import Recommendations from "./recommendations/Recommendations.js";
 
 function Post() {
   return <div className="flex">
@@ -11,7 +11,7 @@ function Post() {
     {/* Main article */}
     <MainArticle/>
     {/* Recommendations */}
-    <Recommendations/>
+    <Recommendations />
   </div>;
 }
 
